@@ -100,10 +100,22 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
-  - source: "@quartz-themes/core"
-    enabled: false
     options:
-      theme: tokyo-night
+      useThemeFonts: false
+      interface: IBM Plex Mono
+      body: IBM Plex Mono
+      title: IBM Plex Mono
+      code: IBM Plex Mono
+      h1: IBM Plex Mono
+      h2: IBM Plex Mono
+      h3: IBM Plex Mono
+      h4: IBM Plex Mono
+      h5: IBM Plex Mono
+      h6: IBM Plex Mono
+  - source: "@quartz-themes/core"
+    enabled: true
+    options:
+      theme: dark-moss
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
