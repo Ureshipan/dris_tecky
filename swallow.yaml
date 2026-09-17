@@ -1,0 +1,19 @@
+name: dris-teck
+dockerfile: ./Dockerfile
+domain: dris-teck # served at demo.<base-domain>
+
+ports:
+- container: 8080
+
+env:
+  GREETING: "Привет из samoswallow!" # change this in the UI and redeploy to see it update
+
+resources:
+  cpu: "1"
+  memory: "2048m" # /mem button will let you push toward this limit
+
+# healthcheck:
+#   path: /health
+
+scale:
+  default_instances: 1
