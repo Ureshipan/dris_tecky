@@ -1,4 +1,4 @@
 jfdfjsdkfjkl  
-bash```
+```bash
 ping bababui.com
 ```
