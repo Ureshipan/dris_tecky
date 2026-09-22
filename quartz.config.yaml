@@ -41,7 +41,7 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: github:requiae/quartz-leaflet-bases-plugin
+  - source: "@requiae/quartz-leaflet-bases-plugin"
       enabled: true
       options:
           enableCopyTool: true
