@@ -44,7 +44,7 @@ plugins:
   - source: "@requiae/quartz-leaflet-bases-plugin"
       enabled: true
       options:
-          enableCopyTool: true
+        enableCopyTool: true
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
