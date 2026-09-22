@@ -11,6 +11,9 @@ COPY quartz/ ./quartz/
 # COPY quartz.lock.json* .
 RUN npm install; npx quartz plugin install
 
+RUN npx quartz plugin add github:quartz-community/bases-page
+RUN npx quartz plugin add github:Requiae/quartz-leaflet-bases-plugin
+
 FROM node:22-slim
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/ /usr/src/app/
